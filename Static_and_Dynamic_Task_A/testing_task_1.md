@@ -26,7 +26,7 @@ class CardGame
   # def highest_card(card1, card2)
   if card1.value > card2.value
     return card.name
-    # card1.name, and name is not a defined function or property of Card class.
+    # return card1-   name is not a defined function or property of Card class.
   else
     card2
     # return card2
@@ -35,13 +35,13 @@ end
 end
 
 def self.cards_total(cards)
-  # self is not required here as method is going to be executed on an array of cards.
+
   total
   # total must equal something, assign to 0. total = 0
   for card in cards
     total += card.value
     return "You have a total of " + total
-    # return "You have a total of #{total}" and this should be outside the for loop.
+    # this should be outside of the for loop.
   end
 
 end
